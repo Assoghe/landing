@@ -4,24 +4,27 @@ import { LinkType, LinkTypes } from "../../libs/link-type";
 
 interface Props {
     variant?: "label";
-    disabled?: boolean;
-    isLoading?: boolean;
     children?: React.ReactNode;
     action?: Function | string;
     baseUrl?: string;
     linkType?: LinkType;
     className?: string;
+    onClick?: () => void;
+    title?: string;
+    externalLink?: string; 
 }
 
 export const Button = ({
     variant = "label",
-    disabled,
     baseUrl,
     linkType,
     action = () => { },
     className,
+    onClick,
+    title = "Lire le livre blanc", 
+    children,
+    externalLink, 
 }: Props) => {
-
     let variantStyles: string = "", sizeStyles: string = "";
 
     switch (variant) {
@@ -30,12 +33,15 @@ export const Button = ({
             break;
     }
 
-
     const handleClick = () => {
-        if (typeof action === 'function') {
-            action(); 
+        if (externalLink) {
+            window.open(externalLink, '_blank'); 
+        } else if (onClick) {
+            onClick();
+        } else if (typeof action === 'function') {
+            action();
         } else if (typeof action === 'string') {
-            window.open(action, '_blank'); 
+            window.open(action, '_blank');
         }
     };
 
@@ -44,16 +50,15 @@ export const Button = ({
             type="button"
             className={clsx(variantStyles, sizeStyles, className)}
             onClick={handleClick}
-            disabled={disabled}
         >
-            Lire le livre blanc
+            {children || title}
         </button>
     );
 
-    if (baseUrl) {
+    if (baseUrl && !externalLink) {
         if (linkType === LinkTypes.EXTERNAL) {
             return (
-                <a href={baseUrl} target="_blank">
+                <a href={baseUrl} target="_blank" rel="noopener noreferrer">
                     {buttonElement}
                 </a>
             );
@@ -63,4 +68,4 @@ export const Button = ({
     }
 
     return buttonElement;
-}
+};

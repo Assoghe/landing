@@ -9,6 +9,8 @@ export const InterestTitleText = () => {
                     <TypographySection
                         title={interestItem.title}
                         body={interestItem.body}
+                        buttonTitle="Contactez-moi sur Linkedin pour découvrir mon livre blanc"
+                        externalLink="https://www.linkedin.com/in/soraya-gherras/"
                     />
                 ))
             }
