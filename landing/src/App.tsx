@@ -8,12 +8,12 @@ import { Herosection } from './sections/herosection/HeroSection'
 function App() {
 
   return (
-    <>
+    <div className='bg-neutral-950'>
       <Herosection />
       <AboutTheBook/>
       <ForWhoSection/>
       <FindSection/>
-    </>
+    </div>
   )
 }
 

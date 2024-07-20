@@ -3,7 +3,7 @@ import BlockFind from "./BlockFind"
 
 export const FindSection = () => {
   return (
-    <div className="tablet:mx-52 mx-6 tablet:my-60 my-24">
+    <div className="tablet:px-52 px-6 tablet:py-60 py-24 bg-neutral-950">
       <TypographySection
         title="Ce qu’on y retrouve ..."
         body="Plongez dans une exploration approfondie de la création et de l'intégration efficace de maquettes web. Ce livre blanc est conçu pour les designers et les développeurs qui cherchent à optimiser leur collaboration et à surmonter les défis du développement web. Vous découvrirez :"
