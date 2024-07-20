@@ -1,9 +1,9 @@
 import React from 'react';
-import { SvgIconComponent } from '@heroicons/react';
+import { IconType } from 'react-icons';
 import { Typography } from '../Typography/Typography';
 
 interface IconBlockProps {
-    icon: SvgIconComponent;
+    icon: IconType;
     title: string;
 }
 

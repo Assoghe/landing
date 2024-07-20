@@ -1,7 +1,7 @@
 import IconBlock from '../../design system/BlockIcon/BlockIcon'
 import { Typography } from '../../design system/Typography/Typography'
 import { Button } from '../../design system/button/Button'
-import { HiAcademicCap, HiCodeBracket, HiPencil, HiPresentationChartLine } from 'react-icons/hi2'
+import { HiAcademicCap, HiCodeBracket, HiPencil } from 'react-icons/hi2'
 
 export const ForWhoSection = () => {
     return (
@@ -18,7 +18,7 @@ export const ForWhoSection = () => {
                 </div>
             </div>
 
-            <div className='flex gap-9'>
+            <div className='tablet:flex gap-9'>
                 <div className="flex justify-center items-center w-full">
                     <IconBlock icon={HiPencil} title="Designers" />
                 </div>
@@ -27,9 +27,6 @@ export const ForWhoSection = () => {
                     <IconBlock icon={HiCodeBracket} title="Développeurs" />
                 </div>
 
-                <div className="flex justify-center items-center w-full">
-                    <IconBlock icon={HiPresentationChartLine} title="Chefs de projet" />
-                </div>
 
                 <div className="flex justify-center items-center w-full">
                     <IconBlock icon={HiAcademicCap} title="Etudiants" />
