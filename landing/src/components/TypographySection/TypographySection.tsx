@@ -10,7 +10,7 @@ interface TypographySectionProps {
 const TypographySection: React.FC<TypographySectionProps> = ({ title, body }) => {
     return (
         <div className="tablet:flex tablet:mb-24 mb-9">
-            <Typography variant="h2" component="h2" className="tablet:w-[550px] mr-9 mb-6 w-full">
+            <Typography variant="h2" component="h2" className="tablet:w-[600px] mr-9 mb-6 w-full">
                 {title}
             </Typography>
             <div>

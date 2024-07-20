@@ -26,7 +26,7 @@ export const Button = ({
 
     switch (variant) {
         case "label":
-            variantStyles = "text-2xl text-primary w-fit";
+            variantStyles = "text-2xl text-primary text-left";
             break;
     }
 
