@@ -1,7 +1,7 @@
 import { HiAcademicCap, HiCodeBracket, HiPencil } from 'react-icons/hi2'
 
 
-export const AboutTheBook = [
+export const aboutTheBook = [
     {
         title: "A propos de ce livre blanc",
         body: "Cette landing page est le résultat direct du projet décrit dans le livre blanc. Il a été réalisé pour illustrer les des pratiques en design, livraison et développement. Elle met en œuvre les concepts clés abordés dans notre guide.",
