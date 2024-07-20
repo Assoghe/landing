@@ -1,12 +1,11 @@
 import './App.css'
+import { Herosection } from './components/pages/herosection/HeroSection'
 
 function App() {
 
   return (
     <>
-      <h1 className=" bg-red-300">
-        Hello world!
-      </h1>
+     <Herosection/>
     </>
   )
 }
