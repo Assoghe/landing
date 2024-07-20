@@ -1,5 +1,4 @@
 import TypographySection from '../../components/TypographySection/TypographySection'
-import Divider from '../../design system/Divider/Divider'
 import { ForWhoIcons } from './ForWhoIcons'
 
 export const ForWhoSection = () => {
