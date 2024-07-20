@@ -1,4 +1,5 @@
 import TypographySection from '../../components/TypographySection/TypographySection'
+import Divider from '../../design system/Divider/Divider'
 import { ForWhoIcons } from './ForWhoIcons'
 
 export const ForWhoSection = () => {
@@ -10,9 +11,11 @@ export const ForWhoSection = () => {
                         title="Ce livre blanc est pour ..."
                         body="Cette landing page est le résultat direct du projet décrit dans le livre blanc. Il a été réalisé pour illustrer les des pratiques en design, livraison et développement. Elle met en œuvre les concepts clés abordés dans notre guide."
                     />
-                </div>            
+                </div>
+                <ForWhoIcons />
             </div>
-            <ForWhoIcons />
+            <div>
+            </div>
         </div>
     )
 }
