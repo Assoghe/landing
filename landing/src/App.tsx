@@ -1,4 +1,5 @@
 import './App.css'
+import { AboutMe } from './sections/AboutMe/AboutMe'
 import { AboutTheBook } from './sections/AboutTheBook/AboutTheBook'
 import { DesignDevSection } from './sections/DesignDevSection/DesignDevSection'
 import { ForWhoSection } from './sections/ForWhoSection/ForWhoSection'
@@ -15,6 +16,7 @@ function App() {
       <ForWhoSection/>
       <FindSection/>
       <DesignDevSection/>
+      <AboutMe/>
     </div>
   )
 }
