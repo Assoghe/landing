@@ -1,5 +1,6 @@
 import { Tag } from "../../design system/Tag/Tag"
 import { Typography } from "../../design system/Typography/Typography"
+import { Button } from "../../design system/button/Button"
 
 export const Herosection = () => {
     return (
@@ -9,10 +10,10 @@ export const Herosection = () => {
                     Livre blanc
                 </Tag>
 
-                <Typography variant='h1' component='h1' className='text-neutral-100 mt-9 mb-3'>
+                <Typography variant='h1' component='h1' className='text-neutral-100 mt-9 mb-12'>
                     Intégrer efficacement une maquette web tout en affrontant les défis liés au développement web
                 </Typography>
-                <button>Lire le livre blanc</button>
+                <Button />
             </div>
         </div>
     )
