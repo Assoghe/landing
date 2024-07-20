@@ -7,7 +7,7 @@ export default {
   theme: {
     screens: {
       mobile: "490px",
-      tablet: "1000px",
+      tablet: "1100px",
       desktop: "1620px",
     },
     fontSize: {
