@@ -8,14 +8,14 @@ export const aboutTheBook = [
     }
 ];
 
-export const ForWho = [
+export const forWho = [
     {
         title: "A qui s’adresse ce livre blanc",
-        body: "Cette landing page est le résultat direct du projet décrit dans le livre blanc. Il a été réalisé pour illustrer les des pratiques en design, livraison et développement. Elle met en œuvre les concepts clés abordés dans notre guide.",
+        body: "Plongez dans une exploration approfondie de la création et de l'intégration efficace de maquettes web. Ce livre blanc est conçu pour les designers et les développeurs qui cherchent à optimiser leur collaboration et à surmonter les défis du développement web. Vous découvrirez :",
     }
 ];
 
-export const ForWhoIcons = [
+export const forWhoIcons = [
     {
         icon: HiPencil,
         title: "Designers",
