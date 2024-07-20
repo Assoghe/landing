@@ -3,8 +3,8 @@ import { HiAcademicCap, HiCodeBracket, HiPencil } from 'react-icons/hi2'
 
 export const ForWhoIcons = () => {
   return (
-      <div className='tablet:flex gap-9 mx-6 tablet:px-52'>
-          <div className="flex justify-center items-center w-full">
+      <div className='gap-9 grid tablet:grid-cols-3'>
+          <div className="flex gap-9 justify-center items-center w-full">
               <IconBlock icon={HiPencil} title="Designers" />
           </div>
 
