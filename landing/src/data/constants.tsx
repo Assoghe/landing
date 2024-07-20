@@ -30,14 +30,14 @@ export const forWhoIcons = [
     },
 ]
 
-export const FindText = [
+export const findText = [
     {
         title: "Ce qu’on va retrouver dans ce livre blanc",
         body: "Plongez dans une exploration approfondie de la création et de l'intégration efficace de maquettes web. Ce livre blanc est conçu pour les designers et les développeurs qui cherchent à optimiser leur collaboration et à surmonter les défis du développement web. Vous découvrirez :",
     }
 ]
 
-export const FindBlock = [
+export const findBlock = [
     {
         title: "Le design",
         body: "Découvrez des astuces pour structurer vos maquettes avec un design system et des design tokens, ainsi que d'autres outils pour faciliter la collaboration entre designers et développeurs.",
