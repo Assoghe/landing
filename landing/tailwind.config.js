@@ -47,8 +47,8 @@ export default {
         letterSpacing: '0.105rem',
         fontWeight: '400',
       }],
-      '4xl': ['1.9rem', {
-        lineHeight: '3rem',
+      '4xl': ['1.5rem', {
+        lineHeight: '2rem',
         letterSpacing: '0.18rem',
         fontWeight: '400',
       }],
