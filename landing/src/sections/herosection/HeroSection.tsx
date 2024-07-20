@@ -5,7 +5,7 @@ import { Button } from "../../design system/button/Button"
 export const Herosection = () => {
     return (
         <div className="bg-cover h-screen bg-[url('./assets/img/herosection.png')]">
-            <div className="h-screen w-6/12 flex flex-col justify-center mx-64">
+            <div className="h-screen tablet:w-5/12 flex flex-col justify-center mx-6 tablet:mx-64">
                 <Tag variant="default">
                     Livre blanc
                 </Tag>
