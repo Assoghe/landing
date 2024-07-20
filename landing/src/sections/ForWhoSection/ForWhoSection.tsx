@@ -4,7 +4,7 @@ import { ForWhoIcons } from './ForWhoIcons'
 export const ForWhoSection = () => {
     return (
         <div className='tablet:py-60 py-24'>
-            <div className='px-6 tablet:px-52 '>
+            <div className='px-6 tablet:px-52'>
                 <div className="w-full">
                     <TypographySection
                         title="Ce livre blanc est pour ..."
