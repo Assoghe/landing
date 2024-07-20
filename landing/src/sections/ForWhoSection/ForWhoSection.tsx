@@ -1,25 +1,11 @@
-import TypographySection from '../../components/TypographySection/TypographySection'
-import { forWho } from '../../data/constants'
 import { ForWhoIcons } from './ForWhoIcons'
+import { ForWhoTitleText } from './ForWhoTitleText'
 
 export const ForWhoSection = () => {
     return (
-        <div className='tablet:py-60 py-24'>
-            <div className='px-6 tablet:px-52'>
-                <div className="w-full">
-                    {
-                        forWho.map((whoItem) => (
-                            <TypographySection
-                                title={whoItem.title}
-                                body={whoItem.body}
-                            />
-                        ))
-                    }
-                </div>
+        <div className='tablet:py-60 py-24 px-6 tablet:px-52'>
+                <ForWhoTitleText/>
                 <ForWhoIcons />
-            </div>
-            <div>
-            </div>
         </div>
     )
 }
